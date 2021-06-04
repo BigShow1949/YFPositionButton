@@ -1,0 +1,16 @@
+PODS:
+  - YFPositionButton (0.1.0)
+
+DEPENDENCIES:
+  - YFPositionButton (from `../`)
+
+EXTERNAL SOURCES:
+  YFPositionButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YFPositionButton: f81604540ac69235e5fc0adc08046be7f31d8196
+
+PODFILE CHECKSUM: 844a90d8513fc89804334eb5a937e0ceb2614c34
+
+COCOAPODS: 1.10.1

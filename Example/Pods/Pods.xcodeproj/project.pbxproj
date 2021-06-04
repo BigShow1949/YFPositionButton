@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FC2FFD0FE39AF28B018A6E9D0B4BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61772639721D20FE4B2CEFBE3080C6F0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D74AF08DDC4A3E5EE8749E71CDB711D /* ReplaceMe.m */; };
+		7A1C93DBC9D354B4933CAC5A486CD35F /* YFPositionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFF00653C41C63B5A28668D738B3989 /* YFPositionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83642F9D32DC8EA34B0CFB4DF77FCCEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8AC9649131D9E1A2FDCB89391914FDC2 /* Pods-YFPositionButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FC970BCA08A81D7179A6DAFD7390C /* Pods-YFPositionButton_Example-dummy.m */; };
+		982F9065E19229C16F1FA11E0A80D051 /* Pods-YFPositionButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B468920ED2BBB21815C8DEBBCE5F3349 /* Pods-YFPositionButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76AC69F9743C98777DAFA275B78205C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0F6D17E250145B28390F9834BDA8D4B /* YFPositionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A814ACC8C5A1C78622396D8F0A13ACF3 /* YFPositionButton-dummy.m */; };
+		DA3C2BF9F29146201AA0C3EAAC628BFB /* Pods-YFPositionButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E10CF67F5BC03CEAC551AEDAED50A204 /* Pods-YFPositionButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E68787A13687723A238589D438EAFC31 /* Pods-YFPositionButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 602088D0FC78C2F0519659478AB75E63 /* Pods-YFPositionButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008F55F98691AD94EA509D90BA4EE6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A18B9B76D6A0751BA8B291ACE9B9DD;
+			remoteInfo = YFPositionButton;
+		};
+		780EC318613F413162EDFCDCEA035F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B62E0E5CBF38096A465A449DE6106C0;
+			remoteInfo = "Pods-YFPositionButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A3F63D7F1B6987409B75A580446934 /* YFPositionButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFPositionButton.debug.xcconfig; sourceTree = "<group>"; };
+		369CE96180BF9B250D995EC804FDA276 /* YFPositionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YFPositionButton.modulemap; sourceTree = "<group>"; };
+		3AC5A338631B78B4AF6E7174CE5DE690 /* Pods-YFPositionButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPositionButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		3CE3BC8C0A57E6F10C07DAC2FB345B7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3FE2BCCC33EE1798A98828411CF5F3D7 /* YFPositionButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YFPositionButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C3AF01DB73070EB4839C1E52BA496D4 /* Pods-YFPositionButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPositionButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		562734F87CBB6FA0C880631A5308DB1D /* Pods-YFPositionButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFPositionButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		602088D0FC78C2F0519659478AB75E63 /* Pods-YFPositionButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPositionButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		6733AD9EC11DE4E11E05328B2E45E50D /* YFPositionButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFPositionButton.release.xcconfig; sourceTree = "<group>"; };
+		6D74AF08DDC4A3E5EE8749E71CDB711D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YFPositionButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6E57DA165BAC2F1BC2849BFB6A7D3867 /* Pods-YFPositionButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPositionButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FF5F9493117753DF3CA3F751F58E9D4 /* YFPositionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YFPositionButton-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D5FC970BCA08A81D7179A6DAFD7390C /* Pods-YFPositionButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFPositionButton_Example-dummy.m"; sourceTree = "<group>"; };
+		7E291C33DA2A1E7465909D7ACA9AC0E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7FF22061A89B27361442410D95D2E212 /* Pods-YFPositionButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YFPositionButton_Tests.modulemap"; sourceTree = "<group>"; };
+		849190926BC51F6354692FF37F49E490 /* YFPositionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPositionButton-prefix.pch"; sourceTree = "<group>"; };
+		93FFB6EE07A084F8E658A253BD10CA83 /* YFPositionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YFPositionButton.framework; path = YFPositionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97961327A8AEEB2FC3907B841C5076CB /* Pods_YFPositionButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YFPositionButton_Tests.framework; path = "Pods-YFPositionButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFF00653C41C63B5A28668D738B3989 /* YFPositionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFPositionButton-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A814ACC8C5A1C78622396D8F0A13ACF3 /* YFPositionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YFPositionButton-dummy.m"; sourceTree = "<group>"; };
+		B468920ED2BBB21815C8DEBBCE5F3349 /* Pods-YFPositionButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFPositionButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB2C1D46F1992BFFDCE73A7C5CB6FA9E /* Pods-YFPositionButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPositionButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEF303334CE28808C9D2A06E02EDEC2D /* Pods-YFPositionButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YFPositionButton_Example.modulemap"; sourceTree = "<group>"; };
+		D2EECCDC056DA1EF6F9FFDCA821C54F2 /* Pods-YFPositionButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPositionButton_Example-Info.plist"; sourceTree = "<group>"; };
+		D3215DECA62146054076005D3A32C7FA /* Pods-YFPositionButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPositionButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C59304FF1B91A3A328D97C8B9AA5B4 /* Pods-YFPositionButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPositionButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E0B2972D93743165DEA3578F3586C1FE /* Pods-YFPositionButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFPositionButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E10CF67F5BC03CEAC551AEDAED50A204 /* Pods-YFPositionButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFPositionButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECE1E62852875587B44CF5B584E2762A /* Pods-YFPositionButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFPositionButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBBEE0BFEC7FA7BC2B4249F9CF428E2E /* Pods_YFPositionButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YFPositionButton_Example.framework; path = "Pods-YFPositionButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3405A7B25E54A9966FDE9CD5C06321 /* Pods-YFPositionButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFPositionButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2259F99730B69C6D21DADCF01AA6C795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FC2FFD0FE39AF28B018A6E9D0B4BF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBA74A8264A6C6883124FD41ED9A0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83642F9D32DC8EA34B0CFB4DF77FCCEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23A128A4882D7005E2ADBC79164FAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76AC69F9743C98777DAFA275B78205C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D028575DB9EBFD966A8E2FD8FBE43A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				369CE96180BF9B250D995EC804FDA276 /* YFPositionButton.modulemap */,
+				A814ACC8C5A1C78622396D8F0A13ACF3 /* YFPositionButton-dummy.m */,
+				6FF5F9493117753DF3CA3F751F58E9D4 /* YFPositionButton-Info.plist */,
+				849190926BC51F6354692FF37F49E490 /* YFPositionButton-prefix.pch */,
+				9CFF00653C41C63B5A28668D738B3989 /* YFPositionButton-umbrella.h */,
+				05A3F63D7F1B6987409B75A580446934 /* YFPositionButton.debug.xcconfig */,
+				6733AD9EC11DE4E11E05328B2E45E50D /* YFPositionButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YFPositionButton";
+			sourceTree = "<group>";
+		};
+		2820A9AB1A42CB886FA59AFA17640AB4 /* YFPositionButton */ = {
+			isa = PBXGroup;
+			children = (
+				6D74AF08DDC4A3E5EE8749E71CDB711D /* ReplaceMe.m */,
+				2EEB9A443FF755A10DF302CF0224A2F6 /* Pod */,
+				06D028575DB9EBFD966A8E2FD8FBE43A /* Support Files */,
+			);
+			name = YFPositionButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2EEB9A443FF755A10DF302CF0224A2F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E291C33DA2A1E7465909D7ACA9AC0E4 /* LICENSE */,
+				3CE3BC8C0A57E6F10C07DAC2FB345B7B /* README.md */,
+				3FE2BCCC33EE1798A98828411CF5F3D7 /* YFPositionButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		300C29991F29C8785E307E17A1E53E5D /* Pods-YFPositionButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CEF303334CE28808C9D2A06E02EDEC2D /* Pods-YFPositionButton_Example.modulemap */,
+				4C3AF01DB73070EB4839C1E52BA496D4 /* Pods-YFPositionButton_Example-acknowledgements.markdown */,
+				BB2C1D46F1992BFFDCE73A7C5CB6FA9E /* Pods-YFPositionButton_Example-acknowledgements.plist */,
+				7D5FC970BCA08A81D7179A6DAFD7390C /* Pods-YFPositionButton_Example-dummy.m */,
+				E0B2972D93743165DEA3578F3586C1FE /* Pods-YFPositionButton_Example-frameworks.sh */,
+				D2EECCDC056DA1EF6F9FFDCA821C54F2 /* Pods-YFPositionButton_Example-Info.plist */,
+				E10CF67F5BC03CEAC551AEDAED50A204 /* Pods-YFPositionButton_Example-umbrella.h */,
+				D3215DECA62146054076005D3A32C7FA /* Pods-YFPositionButton_Example.debug.xcconfig */,
+				D3C59304FF1B91A3A328D97C8B9AA5B4 /* Pods-YFPositionButton_Example.release.xcconfig */,
+			);
+			name = "Pods-YFPositionButton_Example";
+			path = "Target Support Files/Pods-YFPositionButton_Example";
+			sourceTree = "<group>";
+		};
+		3166F101FE9B5468349F276F3BBC6416 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2820A9AB1A42CB886FA59AFA17640AB4 /* YFPositionButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42C58AA9FAC747A2ACE4BE3E352BF061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBEE0BFEC7FA7BC2B4249F9CF428E2E /* Pods_YFPositionButton_Example.framework */,
+				97961327A8AEEB2FC3907B841C5076CB /* Pods_YFPositionButton_Tests.framework */,
+				93FFB6EE07A084F8E658A253BD10CA83 /* YFPositionButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FB024FCF9722E1D906FF85430FA01EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				300C29991F29C8785E307E17A1E53E5D /* Pods-YFPositionButton_Example */,
+				BA426D2B87D37F4423344FF837CF9A2E /* Pods-YFPositionButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA426D2B87D37F4423344FF837CF9A2E /* Pods-YFPositionButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FF22061A89B27361442410D95D2E212 /* Pods-YFPositionButton_Tests.modulemap */,
+				562734F87CBB6FA0C880631A5308DB1D /* Pods-YFPositionButton_Tests-acknowledgements.markdown */,
+				ECE1E62852875587B44CF5B584E2762A /* Pods-YFPositionButton_Tests-acknowledgements.plist */,
+				602088D0FC78C2F0519659478AB75E63 /* Pods-YFPositionButton_Tests-dummy.m */,
+				3AC5A338631B78B4AF6E7174CE5DE690 /* Pods-YFPositionButton_Tests-Info.plist */,
+				B468920ED2BBB21815C8DEBBCE5F3349 /* Pods-YFPositionButton_Tests-umbrella.h */,
+				FE3405A7B25E54A9966FDE9CD5C06321 /* Pods-YFPositionButton_Tests.debug.xcconfig */,
+				6E57DA165BAC2F1BC2849BFB6A7D3867 /* Pods-YFPositionButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-YFPositionButton_Tests";
+			path = "Target Support Files/Pods-YFPositionButton_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3166F101FE9B5468349F276F3BBC6416 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				42C58AA9FAC747A2ACE4BE3E352BF061 /* Products */,
+				5FB024FCF9722E1D906FF85430FA01EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B94AEC2FF612B2462C42132312F873E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982F9065E19229C16F1FA11E0A80D051 /* Pods-YFPositionButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697D4E812B947F48808AFC840A9E00D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1C93DBC9D354B4933CAC5A486CD35F /* YFPositionButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA969D3CA5D9FFC770A88E9EE600E724 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3C2BF9F29146201AA0C3EAAC628BFB /* Pods-YFPositionButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B62E0E5CBF38096A465A449DE6106C0 /* Pods-YFPositionButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9642C9553ED3341DD2D564E69DD5EC4 /* Build configuration list for PBXNativeTarget "Pods-YFPositionButton_Example" */;
+			buildPhases = (
+				EA969D3CA5D9FFC770A88E9EE600E724 /* Headers */,
+				FEDF5E65085F339E9BBC8C35AEFADAA0 /* Sources */,
+				2259F99730B69C6D21DADCF01AA6C795 /* Frameworks */,
+				FCE21608DDE4548388EC175A5F011053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E593B66F79B3545B65976A5CC9F887FB /* PBXTargetDependency */,
+			);
+			name = "Pods-YFPositionButton_Example";
+			productName = "Pods-YFPositionButton_Example";
+			productReference = FBBEE0BFEC7FA7BC2B4249F9CF428E2E /* Pods_YFPositionButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57A18B9B76D6A0751BA8B291ACE9B9DD /* YFPositionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC10A944177B4F82C2D73611B5E77EB /* Build configuration list for PBXNativeTarget "YFPositionButton" */;
+			buildPhases = (
+				697D4E812B947F48808AFC840A9E00D1 /* Headers */,
+				75400787CCF3BA39206A6BCDBB5AF465 /* Sources */,
+				D23A128A4882D7005E2ADBC79164FAB5 /* Frameworks */,
+				D64F255DB0AC8EAB8A0EE5700B09C8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFPositionButton;
+			productName = YFPositionButton;
+			productReference = 93FFB6EE07A084F8E658A253BD10CA83 /* YFPositionButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A21EF2FA8F15D67C1BBB3ACCD46A0BA9 /* Pods-YFPositionButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8B1297ED7A96D8FF1B886DFF502D1A /* Build configuration list for PBXNativeTarget "Pods-YFPositionButton_Tests" */;
+			buildPhases = (
+				5B94AEC2FF612B2462C42132312F873E /* Headers */,
+				61AE5CF499472256B5E7C37BCC985EC9 /* Sources */,
+				5DBA74A8264A6C6883124FD41ED9A0C6 /* Frameworks */,
+				433A6B989BE36E3821CB86B0AB396D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4A9AE6ECD299AA7F37B81EE68E6639 /* PBXTargetDependency */,
+			);
+			name = "Pods-YFPositionButton_Tests";
+			productName = "Pods-YFPositionButton_Tests";
+			productReference = 97961327A8AEEB2FC3907B841C5076CB /* Pods_YFPositionButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 42C58AA9FAC747A2ACE4BE3E352BF061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B62E0E5CBF38096A465A449DE6106C0 /* Pods-YFPositionButton_Example */,
+				A21EF2FA8F15D67C1BBB3ACCD46A0BA9 /* Pods-YFPositionButton_Tests */,
+				57A18B9B76D6A0751BA8B291ACE9B9DD /* YFPositionButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433A6B989BE36E3821CB86B0AB396D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F255DB0AC8EAB8A0EE5700B09C8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE21608DDE4548388EC175A5F011053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61AE5CF499472256B5E7C37BCC985EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68787A13687723A238589D438EAFC31 /* Pods-YFPositionButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75400787CCF3BA39206A6BCDBB5AF465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61772639721D20FE4B2CEFBE3080C6F0 /* ReplaceMe.m in Sources */,
+				B0F6D17E250145B28390F9834BDA8D4B /* YFPositionButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDF5E65085F339E9BBC8C35AEFADAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9649131D9E1A2FDCB89391914FDC2 /* Pods-YFPositionButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E593B66F79B3545B65976A5CC9F887FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YFPositionButton;
+			target = 57A18B9B76D6A0751BA8B291ACE9B9DD /* YFPositionButton */;
+			targetProxy = 008F55F98691AD94EA509D90BA4EE6EC /* PBXContainerItemProxy */;
+		};
+		ED4A9AE6ECD299AA7F37B81EE68E6639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YFPositionButton_Example";
+			target = 1B62E0E5CBF38096A465A449DE6106C0 /* Pods-YFPositionButton_Example */;
+			targetProxy = 780EC318613F413162EDFCDCEA035F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16D6A0D4B3FDEE05E04948450BC6FC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6733AD9EC11DE4E11E05328B2E45E50D /* YFPositionButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YFPositionButton/YFPositionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YFPositionButton/YFPositionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YFPositionButton/YFPositionButton.modulemap";
+				PRODUCT_MODULE_NAME = YFPositionButton;
+				PRODUCT_NAME = YFPositionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		505990893C50AA196CF76B0C5D288137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3405A7B25E54A9966FDE9CD5C06321 /* Pods-YFPositionButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPositionButton_Tests/Pods-YFPositionButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPositionButton_Tests/Pods-YFPositionButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58ADA36AB5C0B7A291E81E5918523161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3215DECA62146054076005D3A32C7FA /* Pods-YFPositionButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPositionButton_Example/Pods-YFPositionButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPositionButton_Example/Pods-YFPositionButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B537BE2D9890FA9BB87D7FEB0A60F2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A3F63D7F1B6987409B75A580446934 /* YFPositionButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YFPositionButton/YFPositionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YFPositionButton/YFPositionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YFPositionButton/YFPositionButton.modulemap";
+				PRODUCT_MODULE_NAME = YFPositionButton;
+				PRODUCT_NAME = YFPositionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA8B54DB093E6FB11D6AE3276617F48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C59304FF1B91A3A328D97C8B9AA5B4 /* Pods-YFPositionButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPositionButton_Example/Pods-YFPositionButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPositionButton_Example/Pods-YFPositionButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDD8A14FCA41D76E17E939836C4F7EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E57DA165BAC2F1BC2849BFB6A7D3867 /* Pods-YFPositionButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFPositionButton_Tests/Pods-YFPositionButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFPositionButton_Tests/Pods-YFPositionButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8B1297ED7A96D8FF1B886DFF502D1A /* Build configuration list for PBXNativeTarget "Pods-YFPositionButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505990893C50AA196CF76B0C5D288137 /* Debug */,
+				DDD8A14FCA41D76E17E939836C4F7EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC10A944177B4F82C2D73611B5E77EB /* Build configuration list for PBXNativeTarget "YFPositionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B537BE2D9890FA9BB87D7FEB0A60F2E0 /* Debug */,
+				16D6A0D4B3FDEE05E04948450BC6FC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9642C9553ED3341DD2D564E69DD5EC4 /* Build configuration list for PBXNativeTarget "Pods-YFPositionButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ADA36AB5C0B7A291E81E5918523161 /* Debug */,
+				BA8B54DB093E6FB11D6AE3276617F48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

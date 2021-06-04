@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YFPositionButton_Example' do
+  pod 'YFPositionButton', :path => '../'
+
+  target 'YFPositionButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
