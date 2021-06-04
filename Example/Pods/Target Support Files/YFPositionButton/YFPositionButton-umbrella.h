@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIButton+Position.h"
+#import "UIButton+SKImageTitleStyle.h"
 
 FOUNDATION_EXPORT double YFPositionButtonVersionNumber;
 FOUNDATION_EXPORT const unsigned char YFPositionButtonVersionString[];

@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0DE0BFD3D00AAFA431CCD39E /* Pods-YFPositionButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPositionButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-YFPositionButton_Tests/Pods-YFPositionButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1DBCD6C6FA25F32D44F4D702 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1DBCD6C6FA25F32D44F4D702 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		234F342847ED0A60490240BF /* Pods-YFPositionButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPositionButton_Example.release.xcconfig"; path = "Target Support Files/Pods-YFPositionButton_Example/Pods-YFPositionButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5270FD0819E07506B7765FD0 /* YFPositionButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YFPositionButton.podspec; path = ../YFPositionButton.podspec; sourceTree = "<group>"; };
+		5270FD0819E07506B7765FD0 /* YFPositionButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YFPositionButton.podspec; path = ../YFPositionButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YFPositionButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFPositionButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C780A3A4E2FAA340EB7B5FD /* Pods-YFPositionButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPositionButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YFPositionButton_Tests/Pods-YFPositionButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		875740D4A91ACCF570E046CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		875740D4A91ACCF570E046CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8B975CADA0DE72493CAA0907 /* Pods_YFPositionButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPositionButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E453E324B532177B234AB9CA /* Pods_YFPositionButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFPositionButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				7C780A3A4E2FAA340EB7B5FD /* Pods-YFPositionButton_Tests.debug.xcconfig */,
 				0DE0BFD3D00AAFA431CCD39E /* Pods-YFPositionButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
